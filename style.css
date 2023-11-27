@@ -1,0 +1,149 @@
+*{
+    font-family: montserrat;
+}
+body{
+    background-color: f1fbff;
+    align-items: center;
+    justify-content: center;
+}
+.section-background{
+    padding: 100px 0;
+}
+.carousel-item{
+min-height:30vh;
+min-width: 100px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 50%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:rgba(0,0,0,0.7);
+    z-index: 1; 
+}
+.navbar-nav a{
+font-size: 18px;
+text-transform: uppercase;
+font-weight: 500;
+color: crimson;
+}
+
+.navbar-light .navbar-brand{
+    color: red;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+} 
+ .navbar-light .navbar-brand:focus
+.navbar-light .navbar-brand:hover{
+    color: red;
+} 
+.navbar-light.navbar-nav.navbar-link:hover{
+    color: red;
+} 
+.navbar-nav.navbar-link:hover{
+    color: red;
+}
+.w-100{
+    height:90vh;
+}
+
+.services .card-body i{
+    font-size: 50px;
+    margin: 40px;
+    height: 20px;
+}
+.team .card-body i{
+    font-size: 40px;
+}
+.portfolio .card i{
+   box-shadow: 15px 15px 40px rgba(0,0,0,0.15); 
+   border: 5px solid red;
+   padding: 20px;
+   margin: 20px;
+}
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15); 
+ }
+ .img-fluidrounded-circle{
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+ }
+
+@media only screen and(min-width:320px) and (max-width:991px){
+.carousel-caption{
+    bottom: 170px;
+}
+ .carousel-caption p{
+    width: 80%;
+ }
+ .card{
+    margin-bottom: 30px;
+    padding: 10px;
+    margin: 10px;
+ }
+ .img-area img{
+    width: 70%;
+ }
+ .services .card-body i{
+    padding: 20px;
+    margin: 20px;
+ }
+}
+@media only screen and(min-width:797px){
+    .navbar-nav{
+        text-align: center;
+    }
+     .navbar-nav:hover{
+        color: blue;
+     }
+     .navbar-light .navbar-brand:focus
+     .navbar-light .navbar-brand:hover{
+         color: red;
+     } 
+    .carousel-caption{
+        bottom: 120px;
+    }
+    .carousel-caption h5{
+ 
+        font-size: 15px;
+
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 15px;
+    }
+    .services .card-body i{
+       padding: 20px;
+       margin: 20px;
+     
+    }
+    .card-body{
+        padding: 20px;
+        margin: 20px;
+    }
+}
